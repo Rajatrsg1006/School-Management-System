@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    ;
+}
+header{
+    text-align: center;
+    height: 50px;
+    font-weight: bolder;
+}
+.container-one{
+    min-height: 100vh;
+    max-width: 100%;
+    border: 2px solid black;
+    display: flex;
+}
+.left-container{
+    width: 300px;
+    /* height: 100%; */
+    border: 1px solid black;
+}
+.profile{
+    width: 100%;
+    /* height: 400px; */
+    border: 1px solid black;
+    background: #071952;
+   
+}
+.profilePhoto{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* padding-left: 10px; */
+    margin: 50px;
+    background-color: white;
+}
+.AdminName{
+    border-bottom: 3px solid rgb(174, 174, 174);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    border-top: none;
+    color: antiquewhite;
+}
+#a{
+    border: 1px solid black;
+    /* width: 80%; */
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .5s;
+    /* background-color:rgb(75, 112, 245); */
+    color: white;
+}
+.updateprofile {
+ background-color: rgb(249, 228, 0);
+}
+.updateprofile:hover{
+ background-color: rgb(249, 228, 0);
+ transform: scale(1.1);
+}
+.updatestudent {
+    background-color:rgb(245, 0, 79) ;
+}
+.updatestudent:hover {
+    background-color:rgb(245, 0, 79) ;
+    transform: scale(1.1);
+}
+.updateteacher {
+    background:rgb(124, 0, 254) ;
+}
+.updateteacher:hover {
+    background:rgb(124, 0, 254) ;
+    transform: scale(1.1);
+}
+.studentprofile{
+    background-color: rgb(255, 175, 0);
+} 
+.studentprofile:hover{
+    background-color: rgb(255, 175, 0);
+    transform: scale(1.1);
+} 
+.teacherprofile {
+    background-color: rgba(63, 255, 191, 0.74);
+}
+.teacherprofile:hover{
+    background-color: rgba(63, 255, 191, 0.74);
+    transform: scale(1.1);
+}
+.classes {
+    background: rgb(6, 208, 1);
+}
+.classes:hover {
+    background: rgb(6, 208, 1);
+    transform: scale(1.1);
+}
+.logout{
+    background: rgb(245, 0, 79);
+   
+} 
+.logout:hover{
+    background: rgb(245, 0, 79);
+   transform: scale(1.1);
+} 
+/* .updateprofile{
+    
+} */
+/* #a:hover{
+     font-size: 1.5rem;
+    background-color: rgb(76, 59, 207);
+    transform: scale(1.1); */
+    /* box-shadow: 0 0 5px ; */
+ /* } */
+ 
+
+
+
+ .right-container{
+    background-color: #35A29F;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ #rc{
+    background: aliceblue;
+    height: 200px;
+    width: 300px;;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    margin: 30px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    transition: .5s;
+ }
+ .totalstudent:hover{
+    transform: scale(1.1);
+    box-shadow:0 0 20px rgb(255, 255, 255);
+  
+ }
+ .totalteacher:hover{
+    transform: scale(1.1);
+    box-shadow:0 0 20px rgb(255, 255, 255);
+ }
+ .totalfund:hover{
+    transform: scale(1.1);
+    box-shadow:0 0 20px rgb(255, 255, 255);
+ }
+ .totalgroth:hover{
+    transform: scale(1.1);
+    box-shadow:0 0 20px rgb(255, 255, 255);
+ }
+ .totalclasses:hover{
+    transform: scale(1.1);
+    box-shadow:0 0 20px rgb(255, 255, 255);
+ }
+ /* #insidetotal{
+
+ } */
